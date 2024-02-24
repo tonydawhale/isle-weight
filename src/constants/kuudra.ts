@@ -1,0 +1,18 @@
+enum KuudraBossTiers {
+    BASIC = 1,
+    HOT = 2,
+    BURNING = 3,
+    FIERY = 4,
+    INFERNAL = 5,
+}
+
+const MAX_KUUDRA_COLLECTION_SCORE = 5000;
+const MAX_KUUDRA_WEIGHT = 1250;
+const KUUDRA_WEIGHT_OVERFLOW_EXPONENT = -(1/2);
+
+export {
+    KuudraBossTiers,
+    MAX_KUUDRA_COLLECTION_SCORE,
+    MAX_KUUDRA_WEIGHT,
+    KUUDRA_WEIGHT_OVERFLOW_EXPONENT
+}
